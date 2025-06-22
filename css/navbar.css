@@ -31,7 +31,6 @@
     flex-direction: column;
     gap: var(--spacing-sm);
     padding-left: var(--padding-md);
-    border-bottom: 1px solid var(--border-color);
 
 
     display: none;

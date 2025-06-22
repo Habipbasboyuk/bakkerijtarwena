@@ -79,6 +79,10 @@
   --transition-normal: 0.4s;
 }
 
+
+.active {
+  display: flex;
+}
 .main {
   background-color: var(--color-primary);
 }
