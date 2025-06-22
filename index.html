@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__brand-container">
+            <p class="nav__brand">Bakkerij Tarwena</p>
+        <button class="hamburger"><img class="hamburger__image" src="images/bread-svgrepo-com.png" alt="hamburgersign"></button>
+        </div>
+        
+
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a class="nav__link" href="#home">home</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#specialties">Producten</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#about">Over Ons</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <section class="hero" id="home">
+            <h1 class="hero__title">Bakkerij <br> <span>Tarwena</span> </h1>
+            <p class="hero__subtitle">Ambachtelijk gebakken brood en gebak van de hoogste kwaliteit. Elke dag vers uit onze oven.</p>
+            <div class="hero__actions">
+                <a href="./location.html" class="btn hero__btn btn__products">Onze producten</a>
+                <a href="./contact.html" class="btn hero__btn btn__contact">Contact opnemen</a>
+            </div>
+        </section>
+
+        <section class="specialties" id="specialties">
+            <h2 class="specialties__title">Onze Specialiteiten</h2>
+            <p class="specialties__subtitle">Elke dag bereiden wij met liefde en vakmanschap onze verse producten. Van traditioneel brood tot innovatieve gebakjes.</p>
+            <section class="specialties__list">
+                <article class="specialties__item">
+                    <img class="specialties__img" src="./images/cake.jpg" alt="Heerlijke taarten">
+                    <h3 class="specialties__title">Heerlijke Taarten</h3>
+                    <p class="specialties__description">Onze taarten zijn perfect voor elke gelegenheid, van verjaardagen tot bruiloften.</p>
+                    <div class="specialties__price">
+                        <p class="price">$15,00</p>
+                        <button class="btn specialties__btn">Bestellen</button>
+                    </div>
+                </article>
+                <article class="specialties__item">
+                    <img class="specialties__img" src="./images/pastry.jpg" alt="Lekkere gebakjes">
+                    <h3 class="specialties__title">Lekkere Gebakjes</h3>
+                    <p class="specialties__description">Geniet van onze selectie van gebakjes, perfect bij de koffie of thee.</p>
+                    <div class="specialties__price">
+                       <p class="price">$3,00</p> 
+                        <button class="btn specialties__btn">Bestellen</button>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="about__title">Over Bakkerij Tarwena</h2>
+            <p class="about__desc">Sinds 2011 staan wij voor traditioneel vakmanschap en de beste ingrediënten. Kemal begint elke dag vroeg om u te voorzien van het lekkerste brood en gebak, terwijl Tanja u vriendelijk verwelkomt in onze winkel om u de beste ervaring toe te dienen.</p>
+            <p class="about__desc">Wij geloven in ambachtelijkheid, kwaliteit vriendelijkheid en service. Elke dag opnieuw zetten wij ons in om u te verrassen met nieuwe smaken en vertrouwde klassiekers.</p>
+            <section class="about__medals">
+                <article class="about__medal">
+                    <img class="about__medal-img" src="images/medal-ribbons-star-svgrepo-com.svg" alt="medal">
+                    <div class="about__medal-info">
+                        <p class="about__medal-title">Kwaliteit Gegarandeerd</p>
+                        <p class="about__medal-desc">Alleen de beste ingrediënten voor onze producten</p>
+                    </div>
+                </article>
+                <article class="about__medal">
+                    <img class="about__medal-img" src="./images/clock-svgrepo-com.svg" alt="clock">
+                    <div class="about__medal-info">
+                        <p class="about__medal-title">Dagelijks Vers</p>
+                        <p class="about__medal-desc">Elke ochtend vers gebakken in onze bakkerij</p>
+                    </div>
+                </article>
+                <article class="about__medal">
+                    <img class="about__medal-img" src="images/heart-svgrepo-com.svg" alt="heart">
+                    <div class="about__medal-info">
+                        <p class="about__medal-title">Met Liefde Gemaakt</p>
+                        <p class="about__medal-desc">Passie voor bakken in elk product dat we maken</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="contact__title">Bezoek Onze Bakkerij</h2>
+            <p class="contact__desc">Kom langs voor de beste bakkerijproducten of neem contact met ons op voor speciale bestellingen</p>
+            <article class="contact__item">
+                <img class="contact__icon" src="images/location-pin-svgrepo-com.svg" alt="location">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Adres</h3>
+                    <p class="contact__text">Bakkerijstraat 42</p>
+                    <p class="contact__text">9552 BORSBEKE</p>
+                    <p class="contact__text">België</p>
+                </div>
+            </article>
+            <article class="contact__item">
+                <img class="contact__icon" src="images/telephone-svgrepo-com.svg" alt="telephone">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Telefoon</h3>
+                    <p class="contact__text">+32 123 456 789</p>
+                </div>
+            </article>
+            <article class="contact__item">
+                <img class="contact__icon" src="images/email-1-svgrepo-com.svg" alt="">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">E-mail</h3>
+                    <p class="contact__text">
+                        <a class="contact__link" href="mailto:bakkerijtarwena@gmail.com">bakkerijtarwena@gmail.com</a>
+                    </p>
+                </div>
+            </article>
+            <article class="contact__item">
+                <img class="contact__icon" src="images/clock-svgrepo-com.svg" alt="">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Openingstijden</h3>
+                    <p class="contact__text">Maandag - Vrijdag: 6:00 - 19:00</p>
+                    <p class="contact__text">Zaterdag - Zondag: 7:00 - 16:00</p>
+                    <p class="contact__text">Dinsdag - Woensdag: Gesloten</p>
+                </div>
+            </article>
+
+
+            <form class="contact__form" action="">
+                <h3 class="contact__form-title">Stuur ons een bericht</h3>
+                <label class="contact__form-label" for="name">
+                    Naam:
+                    <input class="contact__form-input" type="text" id="name" name="name" placeholder="Uw naam" required>
+                </label>
+                <label class="contact__form-label" for="email">
+                    E-mail:
+                    <input class="contact__form-input" type="email" id="email" name="email" placeholder="uw.email@example.com" required>
+                </label>
+                <label class="contact__form-label" for="message">
+                    Bericht:
+                    <textarea class="contact__form-input" id="message" name="message" rows="4" placeholder="Uw bericht..." required></textarea>
+                </label>
+                <button type="submit" class="btn contact__form-btn">Verstuur Bericht</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <section class="footer__main">
+                <div class="footer__about">
+                    <h3 class="footer__title">Bakkerij Tarwena</h3>
+                    <p class="footer__desc">Sinds 2011 bakken wij met passie en vakmanschap de lekkerste producten voor onze klanten. Kom langs en proef het verschil.</p>
+                    <div class="footer__socials">
+                        <a class="footer__social-link" href="https://www.facebook.com/bakkerijtarwena" target="_blank">Facebook</a>
+                        <a class="footer__social-link" href="https://www.instagram.com/bakkerijtarwena" target="_blank">Instagram</a>
+                        <a class="footer__social-link" href="https://www.twitter.com/bakkerijtarwena" target="_blank">tiktok</a>
+                    </div>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Snelle links</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="index.html">Home</a></li>
+                        <li class="footer__item"><a class="footer__link" href="./location.html">Producten</a></li>
+                        <li class="footer__item"><a class="footer__link" href="">Over Ons</a></li>
+                        <li class="footer__item"><a class="footer__link" href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3 class="footer__title">Contact Info</h3>
+                    <p class="footer__contact-text"></p>
+                    <p class="footer__contact-text"><a class="footer__contact-link" href="mailto:bakkerijtarwena@gmail.com">bakkerijtarwena@gmail.com</a></p>
+                    <a class="footer__contact-link" href="tel:053211800">053 211 800</a>
+                    <p class="footer__contact-text">Provincieweg 166 BORSBEKE</p>
+                </div>
+            </section>
+            <section class="footer__bottom">
+                <p class="footer__copyright">&copy; <span class="footer__date"></span> Bakkerij Tarwena. Alle rechten voorbehouden.</p>
+                <p class="footer__credit">Website gemaakt door <a class="footer__credit-link" href="">Habip Basboyuk</a></p>
+            </section>
+        </footer>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

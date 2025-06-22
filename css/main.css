@@ -1,0 +1,108 @@
+@import url('./navbar.css');
+@import url('./hero.css');
+@import url('./specialties.css');
+@import url('./about.css');
+@import url('./contact.css');
+@import url('./form.css');
+@import url('./footer.css');
+
+
+@font-face {
+  font-family: 'Noto Serif Georgian';
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notoserifgeorgian/v28/VEMaRpd8s4nv8hG_qOzL7HOAw4nt0Sl_XxyaEduNMvi7T6Y4ev50sJmasg.woff2) format('woff2');
+  unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+205A, U+2D00-2D2F, U+2E31;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playfairdisplay/v39/nuFkD-vYSZviVYUb_rj3ij__anPXDTnohkk72xU.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+:root {
+  /* Colors */
+  --color-primary: #FEFEFD;
+  --color-secondary: #F1ECE0;
+  --color-accent: #D0A314;
+  --color-title: #7A1A39;
+  --color-text: #D0395C;
+  --icon-background: #FCE7EA;
+  --button-primary: var(--color-title);
+  /* Typography */
+  --font-family-base: 'Segoe UI', Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 2rem;
+  --font-weight-normal: 400;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Margin */
+  --margin-xs: var(--spacing-xs);
+  --margin-sm: var(--spacing-sm);
+  --margin-md: var(--spacing-md);
+  --margin-lg: var(--spacing-lg);
+  --margin-xl: var(--spacing-xl);
+
+  /* Padding */
+  --padding-xs: var(--spacing-xs);
+  --padding-sm: var(--spacing-sm);
+  --padding-md: var(--spacing-md);
+  --padding-lg: var(--spacing-lg);
+  --padding-xl: var(--spacing-xl);
+
+  /* Borders */
+  --border-radius: 6px;
+  --border-width: 1px;
+  --border-color: #F9D0D9;
+
+  /* Shadows */
+  --shadow-light: 0 2px 8px rgba(139, 92, 42, 0.08);
+  --shadow-medium: 0 4px 16px rgba(18, 16, 20, 0.362);
+
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-normal: 0.4s;
+}
+
+.main {
+  background-color: var(--color-primary);
+}
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+
+  font-family: 'Playfair Display';
+
+  color: var(--color-title);
+  font-weight: var(--font-weight-bold);
+}
+
+p, a {
+  color: var(--color-text);
+  font-family: Noto Serif Georgian;
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+

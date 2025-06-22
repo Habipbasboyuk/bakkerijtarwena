@@ -1,0 +1,64 @@
+.footer {
+    padding: var(--padding-md);
+    background-color: var(--color-title);
+}
+
+
+.footer__about,
+.footer__about p,
+.footer__about a,
+.footer__about h3,
+.footer__links,
+.footer__links p,
+.footer__links a,
+.footer__links h3,
+.footer__contact a,
+.footer__contact p,
+.footer__contact h3,
+.footer__bottom p,
+.footer__bottom a,
+.footer__about,
+.footer__links,
+.footer__contact {
+    color: var(--color-primary);
+}
+
+.footer__bottom p,
+.footer__bottom a {
+    text-align: center;
+    padding: var(--padding-sm);
+}
+
+.footer__bottom {
+    border-top: 0.5px solid var(--color-text);
+}
+
+
+.footer__list {
+    padding-left: var(--padding-sm);
+    
+
+}
+
+.footer__item {
+    list-style: none;
+    a {
+        text-decoration: none;
+    }
+}
+
+
+
+.footer__contact {
+
+}
+
+.footer__copyright {
+    border-bottom: 0.5px solid var(--color-text);
+}
+
+.footer__credit {
+    margin-bottom: 0;
+}
+
+

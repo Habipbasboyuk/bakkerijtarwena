@@ -1,0 +1,26 @@
+.contact {
+    text-align: center;
+    padding: var(--padding-md);
+}
+
+.contact__item {
+    box-shadow: var(--shadow-medium);
+    padding: var(--padding-md);
+    display: flex;
+    gap: var(--padding-md);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-md);
+}
+
+.contact__subtitle, .contact__text {
+    margin: 0;
+    text-align: left;
+}
+
+.contact__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: #d0395c5e;
+    padding: 0.3rem;
+}
