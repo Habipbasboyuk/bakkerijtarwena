@@ -45,3 +45,27 @@
         }
     }
 }
+
+@media(min-width: 40rem) {
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav__list {
+            flex-direction: row;
+            gap: var(--spacing-lg);
+        }
+    }
+
+    .nav__brand-container {
+        border-bottom: none;
+    }
+
+
+    
+}
