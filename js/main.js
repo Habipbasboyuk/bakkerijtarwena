@@ -82,7 +82,7 @@ if ($assortimentContainer) {
 
 
 const $hero = document.querySelector('.hero');
-const DOT_COUNT = 5;
+const DOT_COUNT = 17;
 const dots = [];
 const images = [
     'images/donuts.png',
@@ -119,6 +119,7 @@ function animateDots(time) {
         dot.style.left = `${newLeft}%`;
 
         // Knipperen
+
     });
     requestAnimationFrame(animateDots);
 }
