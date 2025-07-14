@@ -13,6 +13,10 @@
 
 .specialties__list {
     margin-top: var(--margin-lg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .specialties__item {
@@ -22,6 +26,8 @@
     padding: var(--padding-sm);
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-medium);
+    max-width: 70%;
+    
 
 
     .specialties__description {
@@ -54,5 +60,66 @@
         font-weight: var(--font-weight-bold);
         color: var(--color-accent);
         font-size: larger;
+    }
+}
+
+
+@media(min-width: 40rem) {
+    .specialties__title {
+        font-size: 2.5rem;
+        margin-top: 10%;
+    }
+
+    .specialties__subtitle {
+        font-size: 1.3rem;
+    }
+
+    .specialties__list {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        gap: var(--spacing-lg);
+    }
+    .specialties__item {
+        width: 45%;
+        border-radius: 25px;
+    }
+
+    .specialties__title {
+        font-size: 1.5rem;
+    }
+
+
+    .specialties__price {
+        padding: var(--padding-sm) var(--padding-sm);
+    }
+}
+
+
+@media(min-width: 60rem) {
+
+    .specialties__description {
+        max-width: 60%;
+    }
+
+    .specialties__list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+    }
+
+
+    .specialties__item {
+        max-width: 25%;
+
+        border-radius: 25px;
+    }
+
+
+    .specialties__price {
+        padding: var(--padding-sm) var(--padding-sm);
     }
 }

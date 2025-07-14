@@ -1,46 +1,61 @@
 .contact__form {
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-medium);
-    padding: var(--padding-md);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-medium);
+  padding: var(--padding-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding-md);
+  text-align: left;
+
+  .contact__form-label {
     display: flex;
     flex-direction: column;
-    gap: var(--padding-md);
-    text-align: left;
 
-    .contact__form-label {
+    color: var(--color-title);
+    font-family: Noto Serif Georgian;
 
-        display: flex;
-        flex-direction: column;
-        
+    .contact__form-input {
+      padding: var(--padding-sm);
+      border-radius: var(--border-radius);
+      border: 1px solid var(--border-color);
+      font-family: Noto Serif Georgian;
+      font-size: 1rem;
+      color: var(--color-text);
+    }
+  }
+}
 
-        color: var(--color-title);
-        font-family: Noto Serif Georgian;
+.contact__form-btn {
+  background-color: var(--button-primary);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  border: 2px solid var(--color-title);
+  padding: var(--padding-sm) var(--padding-lg);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-fast);
 
-        .contact__form-input {
-            padding: var(--padding-sm);
-            border-radius: var(--border-radius);
-            border: 1px solid var(--border-color);
-            font-family: Noto Serif Georgian;
-            font-size: 1rem;
-            color: var(--color-text);
-        }
+  &:hover {
+    background-color: var(--color-title);
+    color: var(--color-primary);
+  }
+}
 
 
-        }
+@media (min-width: 40rem) {
+    .contact__form {
+        border-radius: 25px;
+        padding: var(--padding-lg);
+    }
+
+    .contact__form-title {
+        font-size: 1.5rem;
+        margin-top: var(--margin-md);
     }
 
     .contact__form-btn {
-            background-color: var(--button-primary);
-            color: var(--color-primary);
-            font-weight: var(--font-weight-semibold);
-            text-decoration: none;
-            border: 2px solid var(--color-title);
-            padding: var(--padding-sm) var(--padding-lg);
-            border-radius: var(--border-radius);
-            cursor: pointer;
-            transition: background-color var(--transition-fast);
-
-            &:hover {
-                background-color: var(--color-title);
-                color: var(--color-primary);
-            }}
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}

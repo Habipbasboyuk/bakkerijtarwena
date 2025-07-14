@@ -1,0 +1,17 @@
+.assortiment__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.assortiment__title {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.assortiment__item {
+
+}

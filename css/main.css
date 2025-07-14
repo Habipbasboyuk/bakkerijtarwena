@@ -5,6 +5,7 @@
 @import url('./contact.css');
 @import url('./form.css');
 @import url('./footer.css');
+@import url('./assortiment.css');
 
 
 @font-face {
@@ -89,6 +90,7 @@
 body, html {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3 {
@@ -108,5 +110,12 @@ p, a {
 
 * {
   box-sizing: border-box;
+}
+
+.hero,
+.specialties,
+.about,
+.contact {
+  scroll-margin-top: 3rem;
 }
 

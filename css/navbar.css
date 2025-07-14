@@ -1,6 +1,9 @@
 
 .nav {
     padding: 0 var(--margin-md);
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .hamburger {
@@ -57,6 +60,7 @@
         align-items: center;
         justify-content: space-between;
         .nav__list {
+            display: flex;
             flex-direction: row;
             gap: var(--spacing-lg);
         }

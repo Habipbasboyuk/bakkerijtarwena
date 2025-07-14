@@ -50,26 +50,7 @@
         <section class="specialties" id="specialties">
             <h2 class="specialties__title">Onze Specialiteiten</h2>
             <p class="specialties__subtitle">Elke dag bereiden wij met liefde en vakmanschap onze verse producten. Van traditioneel brood tot innovatieve gebakjes.</p>
-            <section class="specialties__list">
-                <article class="specialties__item">
-                    <img class="specialties__img" src="./images/cake.jpg" alt="Heerlijke taarten">
-                    <h3 class="specialties__title">Heerlijke Taarten</h3>
-                    <p class="specialties__description">Onze taarten zijn perfect voor elke gelegenheid, van verjaardagen tot bruiloften.</p>
-                    <div class="specialties__price">
-                        <p class="price">$15,00</p>
-                        <button class="btn specialties__btn">Bestellen</button>
-                    </div>
-                </article>
-                <article class="specialties__item">
-                    <img class="specialties__img" src="./images/pastry.jpg" alt="Lekkere gebakjes">
-                    <h3 class="specialties__title">Lekkere Gebakjes</h3>
-                    <p class="specialties__description">Geniet van onze selectie van gebakjes, perfect bij de koffie of thee.</p>
-                    <div class="specialties__price">
-                       <p class="price">$3,00</p> 
-                        <button class="btn specialties__btn">Bestellen</button>
-                    </div>
-                </article>
-            </section>
+            <section class="specialties__list"></section>
         </section>
 
         <section class="about" id="about">
@@ -104,43 +85,50 @@
         <section class="contact" id="contact">
             <h2 class="contact__title">Bezoek Onze Bakkerij</h2>
             <p class="contact__desc">Kom langs voor de beste bakkerijproducten of neem contact met ons op voor speciale bestellingen</p>
-            <article class="contact__item">
-                <img class="contact__icon" src="images/location-pin-svgrepo-com.svg" alt="location">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">Adres</h3>
-                    <p class="contact__text">Bakkerijstraat 42</p>
-                    <p class="contact__text">9552 BORSBEKE</p>
-                    <p class="contact__text">België</p>
-                </div>
-            </article>
-            <article class="contact__item">
-                <img class="contact__icon" src="images/telephone-svgrepo-com.svg" alt="telephone">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">Telefoon</h3>
-                    <p class="contact__text">+32 123 456 789</p>
-                </div>
-            </article>
-            <article class="contact__item">
-                <img class="contact__icon" src="images/email-1-svgrepo-com.svg" alt="">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">E-mail</h3>
-                    <p class="contact__text">
-                        <a class="contact__link" href="mailto:bakkerijtarwena@gmail.com">bakkerijtarwena@gmail.com</a>
-                    </p>
-                </div>
-            </article>
-            <article class="contact__item">
-                <img class="contact__icon" src="images/clock-svgrepo-com.svg" alt="">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">Openingstijden</h3>
-                    <p class="contact__text">Maandag - Vrijdag: 6:00 - 19:00</p>
-                    <p class="contact__text">Zaterdag - Zondag: 7:00 - 16:00</p>
-                    <p class="contact__text">Dinsdag - Woensdag: Gesloten</p>
-                </div>
-            </article>
 
 
-            <form class="contact__form" action="">
+            <section class="contact__cards">
+
+
+                <article class="contact__item">
+                    <img class="contact__icon" src="images/location-pin-svgrepo-com.svg" alt="location">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Adres</h3>
+                        <p class="contact__text">Bakkerijstraat 42</p>
+                        <p class="contact__text">9552 BORSBEKE</p>
+                        <p class="contact__text">België</p>
+                    </div>
+                </article>
+                <article class="contact__item">
+                    <img class="contact__icon" src="images/telephone-svgrepo-com.svg" alt="telephone">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Telefoon</h3>
+                        <p class="contact__text">+32 123 456 789</p>
+                    </div>
+                </article>
+                <article class="contact__item">
+                    <img class="contact__icon" src="images/email-1-svgrepo-com.svg" alt="">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">E-mail</h3>
+                        <p class="contact__text">
+                            <a class="contact__link" href="mailto:bakkerijtarwena@gmail.com">bakkerijtarwena@gmail.com</a>
+                        </p>
+                    </div>
+                </article>
+                <article class="contact__item">
+                    <img class="contact__icon" src="images/clock-svgrepo-com.svg" alt="">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Openingstijden</h3>
+                        <p class="contact__text">Maandag - Vrijdag: 6:00 - 19:00</p>
+                        <p class="contact__text">Zaterdag - Zondag: 7:00 - 19:00</p>
+                        <p class="contact__text">Dinsdag - Woensdag: Gesloten</p>
+                    </div>
+                </article>
+            </section>
+
+
+            <form class="contact__form"   action="https://formspree.io/f/manbwjnv"
+  method="POST">
                 <h3 class="contact__form-title">Stuur ons een bericht</h3>
                 <label class="contact__form-label" for="name">
                     Naam:
@@ -192,6 +180,6 @@
             </section>
         </footer>
     </main>
-    <script src="./js/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
